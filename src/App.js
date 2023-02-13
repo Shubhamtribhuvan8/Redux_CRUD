@@ -17,7 +17,7 @@ const isError=useSelector(store=>store.isLoding)
   const dispatch=useDispatch();
   const getTodo=()=>{
     axios.get("http://localhost:8080/todos").then((res)=>{
-      console.log(res);
+      // console.log(res);
       dispatch(todosuccess(res.data));
     }).catch(e=>{
       dispatch(todofailure());

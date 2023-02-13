@@ -1,3 +1,19 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "title": "Title ko chnage kar diya put request se",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "title": "Title ko chnage kar diya put request se",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Title ko chnage kar diya put request se",
+      "completed": false,
+      "id": 3
+    }
+  ]
 }

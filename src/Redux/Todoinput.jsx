@@ -6,6 +6,7 @@ import { addtodofailure, addtodorequest, addtodosuccess } from "./action";
 import Delete from "./Delete";
 import { useSelector } from "react-redux";
 import Item from "./Item";
+import PostRequest from "./PostRequest";
 export default function Todoinput() {
   const dispatch = useDispatch();
   const todos = useSelector(state => state.todos);
@@ -33,6 +34,7 @@ export default function Todoinput() {
       <input value={title} onChange={handlechange} />
       <button onClick={handleAdd}>Add Todo</button>
       <Item/>
+      <PostRequest/>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>

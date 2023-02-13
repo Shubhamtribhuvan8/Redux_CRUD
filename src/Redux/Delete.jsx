@@ -6,7 +6,7 @@ import { deletetodorequest, deletettodofailure, deletettodosuccess } from './act
 export default function Delete({ id }) {
     const dispatch = useDispatch();
     const DeletePOST = () => {
-    console.log(id);
+    // console.log(id);
     dispatch(deletetodorequest());
     axios.delete(`http://localhost:8080/todos/${id}`).then((res) => {
     dispatch(deletettodosuccess(res.data))
