@@ -1,0 +1,20 @@
+export const ADD="add";
+export const REDUCE="minus";
+
+export const TODO_REQUEST="TODO/LOADING";
+export const TODO_SUCCESS="TODO/SUCCESS";
+export const TODO_FAILURE="TODO/FAILURE";
+
+
+export const ADD_TODO_REQUEST="ADD_TODO/LOADING";
+export const ADD_TODO_SUCCESS="ADD_TODO/SUCCESS";
+export const ADD_TODO_FAILURE="ADD_TODO/FAILURE";
+
+
+
+export const DELETE_TODO_REQUEST="DELETE_TODO/LOADING";
+export const DELETE_TODO_SUCCESS="DELETE_TODO/SUCCESS";
+export const DELETE_TODO_FAILURE="DELETE_TODO/FAILURE";
+
+
+export const DELETE_ITEM = 'DELETE_ITEM';
